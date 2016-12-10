@@ -20,4 +20,9 @@ describe('Calculator', () => {
     const sub = calculator.divide(100, 50);
     expect(sub).toBe(2);
   });
+
+  it('should return root of a number', () => {
+    const result = calculator.root(9);
+    expect(result).toBe(3);
+  });
 });

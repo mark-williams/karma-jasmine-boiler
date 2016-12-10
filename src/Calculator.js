@@ -3,4 +3,6 @@ const subtract = (x, y) => (x - y);
 const divide = (x, y) => (x / y);
 const multiply = (x, y) => (x * y);
 
-export { add, subtract, divide, multiply };
+const root = (x) => (Math.sqrt(x));
+
+export { add, subtract, divide, multiply, root };
