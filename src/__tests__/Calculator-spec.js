@@ -20,4 +20,9 @@ describe('Calculator', () => {
     const sub = calculator.divide(100, 50);
     expect(sub).toBe(2);
   });
+
+  it('should square a number', () => {
+    const result = calculator.square(5);
+    expect(result).toBe(25);
+  });
 });
