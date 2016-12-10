@@ -24,5 +24,9 @@ describe('Calculator', () => {
   it('should square a number', () => {
     const result = calculator.square(5);
     expect(result).toBe(25);
+
+  it('should return root of a number', () => {
+    const result = calculator.root(9);
+    expect(result).toBe(3);
   });
 });
